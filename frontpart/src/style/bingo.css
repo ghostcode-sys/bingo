@@ -1,0 +1,82 @@
+.bingo-box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0;
+}
+.bingo-container{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.2), 0 0 5px 5px rgba(255, 255, 255, 0.2), 0 0 7px 7px rgba(255, 255, 255, 0.2);
+}
+
+.bingo-box-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.bingo-box{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    border: solid 2px black;
+    margin:2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.active-box:hover{
+    background-color: blueviolet;
+}
+.active-box{
+    background-color: #7ca3a7c4;
+}
+.passive-box{
+    background-color: skyblue;
+}
+.my-bingo-container{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    text-shadow: 0 0 2px white;
+}
+.my-bingo-meter{
+    display: flex;
+    justify-content: center;
+}
+
+.my-bingo-box{
+    color:rgb(5 13 243 / 68%);
+    text-shadow: 0 0 2px rgb(5 13 243 / 68%);
+    border:none;
+    width: 50px;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    font-size: 32px;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 5px rgba(128, 128, 128, 0.315);
+    text-decoration:solid ;
+}
+.bingo-my-move{
+    color:green;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 0 5px green;
+}
+.bingo-other-move{
+    font-size: 16px;
+    color:red;
+    font-weight: bold;
+    text-shadow: 0 0 5px red;
+}
+/* user lobby */
+

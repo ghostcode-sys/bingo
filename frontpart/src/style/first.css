@@ -1,0 +1,111 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+  padding: 2px 2px;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.2);
+}
+.navbar-logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  color: yellow;
+  text-shadow: 0px 0px 5px yellow;
+}
+.navbar-user {
+  display: flex;
+  align-items: center;
+}
+.navbar-username {
+  font-size: 28px;
+  font-weight: bold;
+  color: orange;
+  text-shadow: 0 0 5px orange;
+}
+.navbar-button {
+  margin-left: 5px;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 4px 5px 1px rgba(201, 195, 195, 0.925);
+  /* box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+}
+.navbar-button:hover {
+  color: white;
+  background-color: black;
+}
+.form-container {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+}
+.form-div {
+  margin: auto;
+  padding: 5px 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+}
+.form-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 10px;
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+.input-div {
+  color: white;
+  text-shadow: 0 0 5px white;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  width: 30vw;
+  margin: 10px 5px;
+}
+.input-div input {
+  margin: 10px 0px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  color: white;
+}
+.input-div input:focus {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+.sub-btn{
+  padding:10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border:none;
+  /* box-shadow: -4px -4px 4px 3px rgba(255, 255, 255, 0.6); */
+  transition: background-color 2s, color 2s;
+}
+.sub-btn:hover{
+  background-color: blue;
+  color:white;
+  /* box-shadow: -4px -4px 4px 3px rgba(0, 0, 255, 0.6); */
+}
+.error-msg{
+  color:white;
+}
+.change-user{
+  margin:10px 0px;
+  border:none;
+  background-color: transparent;
+  color:yellow;
+  text-decoration: underline;
+}
